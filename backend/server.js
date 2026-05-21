@@ -6,7 +6,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 3000;
-const MONGO_URI = 'mongodb://localhost:27017/shetkari_billing';
+const MONGO_URI = 'mongodb+srv://mayur:Mayur123@cluster0.3h3text.mongodb.net/shetkari_billing?appName=Cluster0';
 
 // Middleware
 app.use(cors());
