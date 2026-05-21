@@ -1,4 +1,4 @@
-const API = 'http://localhost:3000/api';
+const API = 'https://cattle-invo-production.up.railway.app/api';
 
 async function apiFetch(path, options = {}) {
   try {
@@ -22,8 +22,8 @@ const marathiDate = (d) => {
 };
 
 const marathiMonths = [
-  '', 'जानेवारी','फेब्रुवारी','मार्च','एप्रिल','मे','जून',
-  'जुलै','ऑगस्ट','सप्टेंबर','ऑक्टोबर','नोव्हेंबर','डिसेंबर'
+  '', 'जानेवारी', 'फेब्रुवारी', 'मार्च', 'एप्रिल', 'मे', 'जून',
+  'जुलै', 'ऑगस्ट', 'सप्टेंबर', 'ऑक्टोबर', 'नोव्हेंबर', 'डिसेंबर'
 ];
 
 function showToast(msg, type = 'success') {
